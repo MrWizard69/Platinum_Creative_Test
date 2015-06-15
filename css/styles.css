@@ -1,3 +1,28 @@
 .header{
 	background-color: #333327;
+	padding-top: .5%;
+}
+.dragpic{
+	width: 100%;
+}
+
+.logo{
+	padding-bottom: .5%;
+	margin-left: 10%;
+}
+
+.degree{
+	border: 1px solid black;
+	line-height: 1%;
+	width: 17%;
+	padding-left: 3%;
+	background-color: black;
+	color: white;
+	opacity: .8;
+	position: absolute;
+	bottom: 40%;
+	left: 17%;
+
+
+	
 }
