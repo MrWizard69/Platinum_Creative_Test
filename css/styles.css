@@ -112,6 +112,7 @@ input[type='radio']:checked:before {
 #focuscenter{
 	margin-left: 40.5%;
 	margin-top: 5%;
+	margin-bottom: 3%;
 }
 
 #hright{
@@ -161,23 +162,49 @@ input[type='radio']:checked:before {
 
 .areacenter{
 	text-align: center;
+	color: #444444;
 }
 
 .areamove{
 	margin-left: 5%;
+	color: #444444;
 }
+
+#outercirc1{
+	background: #eee1c6;
+   	border-radius: 50%;
+   	height: 110px;
+   	width: 110px;
+   	z-index: -2;
+   	position: absolute;
+   	top: 113%;
+   	left: 13%
+}
+
+#outercirc2{
+	background: #eee1c6;
+   	border-radius: 50%;
+   	height: 110px;
+   	width: 110px;
+   	z-index: -2;
+   	position: absolute;
+   	top: 113%;
+   	left: 45.6%
+}
+
+#outercirc3{
+	background: #eee1c6;
+   	border-radius: 50%;
+   	height: 110px;
+   	width: 110px;
+   	z-index: -2;
+   	position: absolute;
+   	top: 113%;
+   	left: 80.2%
+}
+
+
 
 .iconcenter{
-	margin-left: 27%;
-	margin-top: 25%;
-}
-
-.whitecirc{
-	width: 100px;
-	height: 100px;
-	background: white;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
-	margin-left: 32%;
+	margin-left: 39%;
 }
