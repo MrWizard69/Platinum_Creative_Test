@@ -67,30 +67,35 @@
 		</div>
 		
 		<div class="form">
-			<h4>Call us: 800.226.7625</h6>
-			<h3>REQUEST INFO</h5>
-			<input type="checkbox" name="vehicle" value="Car" checked>Campus
-			<input type="checkbox" name="vehicle" value="Car">online
+			<h4 class="callus">Call us: 800.226.7625</h6>
+			
+			<div class="request">
+			<input type="radio" value="campus" checked>Campus
+			<input type="radio" value="online">online<br/>
+			</div>
+			
+			<h4>REQUEST INFO</h4>
+			
 			<label>Degree Program</label>
-			<select>
+			<select class="info" id="select">
   				<option value="null"></option>
   				<option value="web">Web Dev</option>
   				<option value="game">Game Dev</option>
   				<option value="music">Music</option>
-			</select>
+			</select><br/>
 			<label>First Name</label>
-			<input type="text" name="fname">
+			<input class="info" type="text" name="fname"><br/>
 			<label>Last Name</label>
-			<input type="text" name="lname">
+			<input class="info" type="text" name="lname"><br/>
 			<label>Email</label>
-			<input type="text" name="email">
+			<input class="info" type="text" name="email"><br/>
 			<label>Phone</label>
-			<input type="text" name="phone">
+			<input class="info" maxlength="10" type="text" name="phone"><br/>
 			<label>ZIP</label>
-			<input type="text" name="zip">
-			<input type="checkbox" name="vehicle" value="Car">I would like to receive text messages
-			<input type="submit" value="Submit">
-			<p>By submitting this form, I give consent to Full Sail University and its partners (RMCAD and LA Film School) 
+			<input class="info" maxlength="5" type="text" name="zip"><br/>
+			<input class="update" type="radio" value="update">I would like to receive text messages<br/>
+			<input class="requestsub" type="submit" value="Submit">
+			<p class="agreed">By submitting this form, I give consent to Full Sail University and its partners (RMCAD and LA Film School) 
 			to contact me by telephone (including autodialed and prerecorded messages) at the number I 
 			have provided to receive information about Full Sail's offerings. I understand that this consent is not required in order to enroll.</p>
 		</div>
