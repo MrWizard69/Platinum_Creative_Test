@@ -375,6 +375,10 @@ a{
 		margin-left: 1.5%;
 	}
 	
+	.descript{
+		line-height: 270%;
+	}
+	
 	.form{
 		background-color: #322f1e;
 		width: 39%;
@@ -387,7 +391,7 @@ a{
 	
 	#focuscenter{
 		margin-bottom: 4%;
-		margin-top: 25%;
+		margin-top: 5%;
 		font-size: 150%;
 		margin-left: 37%;
 	}
@@ -406,38 +410,42 @@ a{
 	
 	#outercirc1{
 		background: #444444;
-   		top: 101%;
-   		left: 12.5%
+   		top: 106.5%;
+   		left: 9.5%
 	}
 
 	#outercirc2{
 		background: #444444;
-   		top: 101%;
-   		left: 45%
+   		top: 106.5%;
+   		left: 42%
 	}
 
 	#outercirc3{
 		background: #444444;
-   		top: 101%;
-   		left: 79%
+   		top: 106.5%;
+   		left: 76%
+	}
+	
+	.iconcenter{
+		margin-left: 25%;
 	}
 	
 	.gadback{
 		background: #444444;
-		height: 630px;
+		height: 600px;
 	}
 	
 	.areacenter{
 		color: white;
 		width: 100%;
-		margin-left: 10%;
+		margin-left: 1%;
 		font-size: 150%;
 	}
 	
 	.areamove{
 		color: white;
 		width: 100%;
-		margin-left: 15%;
+		margin-left: 5%;
 		font-size: 90%;
 	}
 	
