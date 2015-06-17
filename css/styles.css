@@ -176,7 +176,7 @@ input[type='radio']:checked:before {
    	width: 110px;
    	z-index: -2;
    	position: absolute;
-   	top: 190%;
+   	top: 113%;
    	left: 13%
 }
 
@@ -187,7 +187,7 @@ input[type='radio']:checked:before {
    	width: 110px;
    	z-index: -2;
    	position: absolute;
-   	top: 190%;
+   	top: 113%;
    	left: 45.6%
 }
 
@@ -198,13 +198,14 @@ input[type='radio']:checked:before {
    	width: 110px;
    	z-index: -2;
    	position: absolute;
-   	top: 190%;
+   	top: 113%;
    	left: 80.2%
 }
 
 .iconcenter{
 	margin-left: 39%;
 }
+
 
 #owl-demo .item img{
     display: block;
