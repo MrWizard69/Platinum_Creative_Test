@@ -53,7 +53,6 @@
 #select{
 	height: 25px;
 	width: 100%;
-	background: #ffffff url("img/dropdown.png") no-repeat right top;
 }
 
 #select:hover{
@@ -177,7 +176,7 @@ input[type='radio']:checked:before {
    	width: 110px;
    	z-index: -2;
    	position: absolute;
-   	top: 113%;
+   	top: 190%;
    	left: 13%
 }
 
@@ -188,7 +187,7 @@ input[type='radio']:checked:before {
    	width: 110px;
    	z-index: -2;
    	position: absolute;
-   	top: 113%;
+   	top: 190%;
    	left: 45.6%
 }
 
@@ -199,12 +198,16 @@ input[type='radio']:checked:before {
    	width: 110px;
    	z-index: -2;
    	position: absolute;
-   	top: 113%;
+   	top: 190%;
    	left: 80.2%
 }
 
-
-
 .iconcenter{
 	margin-left: 39%;
+}
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
 }
