@@ -286,7 +286,6 @@ input[type='radio']:checked:before {
 .learning{
 	z-index: 1;
 	background-color: #e96c1f;
-	/* padding: 3%; */
 	width: 80%;
 	height: 285px;
 	position: absolute;
@@ -524,5 +523,48 @@ a{
 		line-height: 100%;
 	}
 	
+	.learning{
+		width: 83%;
+		height: 269px;
+		position: absolute;
+		top: 152%;
+		left: 9%;
+	}
+
+	#learn{
+		margin-left: 55%;
+		width: 45%;
+	}
 	
+	.bachelor{
+		color: white;
+		position: absolute;
+		top: 2%;
+		left: 5%;
+	}
+
+	.details{
+		color: white;
+		line-height: 200%;
+		position: absolute;
+		top: 30%;
+	}
+
+	ul{
+		font-size: 95%;
+		list-style: disc;
+		list-style-image: url(../img/bullet.png);
+	}
+	
+	a{
+		color: #d75921;
+	}
+	
+	#requestInfo{
+		width: 35%;
+	}
+	
+	.lilfont{
+		font-size: 75%;
+	}
 }
