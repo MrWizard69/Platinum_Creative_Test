@@ -386,21 +386,63 @@ a{
 	}
 	
 	#focuscenter{
-		margin-bottom: 50%;
-		margin-top: 50%;
+		margin-bottom: 4%;
+		margin-top: 25%;
+		font-size: 150%;
+		margin-left: 37%;
 	}
 	
 	#hright{
-		width: 20%;
-		float: right;
-		margin-right: 16.5%;
+		width: 30%;
+		margin-right: 3.5%;
 		margin-top: 1.2%;
 	}
 
 	#hleft{
-		width: 20%;
-		float: left;
-		margin-left: 17%;
+		width: 32%;
+		margin-left: 1%;
 		margin-top: 1.2%;
+	}
+	
+	#outercirc1{
+		background: #444444;
+   		top: 101%;
+   		left: 12.5%
+	}
+
+	#outercirc2{
+		background: #444444;
+   		top: 101%;
+   		left: 45%
+	}
+
+	#outercirc3{
+		background: #444444;
+   		top: 101%;
+   		left: 79%
+	}
+	
+	.gadback{
+		background: #444444;
+		height: 630px;
+	}
+	
+	.areacenter{
+		color: white;
+		width: 100%;
+		margin-left: 10%;
+		font-size: 150%;
+	}
+	
+	.areamove{
+		color: white;
+		width: 100%;
+		margin-left: 15%;
+		font-size: 90%;
+	}
+	
+	.carousel{
+		background-color: #dbdada;
+		width: 98%;
 	}
 }
