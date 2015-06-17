@@ -208,6 +208,8 @@ input[type='radio']:checked:before {
 
 .carousel{
 	background-color: #dbdada;
+	position: absolute;
+	width: 98.9%;
 }
 
 .fsxp{
@@ -216,7 +218,7 @@ input[type='radio']:checked:before {
 	padding: .5%;
 	color: #dbdada;
 	position: absolute;
-	top: 204.4%;
+	top: 15.4%;
 	left: 55%;
 }
 
@@ -273,4 +275,46 @@ input[type='radio']:checked:before {
 	color: #444444;
 	font-size: 110%;
 	line-height: 97%;
+}
+
+.learning{
+	z-index: 1;
+	background-color: #e96c1f;
+	/* padding: 3%; */
+	width: 80%;
+	height: 300px;
+	position: absolute;
+	top: 149%;
+	left: 9%;
+}
+
+#learn{
+	margin-left: 62%;
+	width: 38%;
+}
+
+.footer{
+	width: 98.9%;
+	position: absolute;
+	top: 236.1%;
+	background-color: #333327;
+}
+
+.bachelor{
+	color: white;
+	position: absolute;
+	top: 2%;
+	left: 3%;
+}
+
+.details{
+	color: white;
+	line-height: 200%;
+	position: absolute;
+	top: 30%;
+}
+
+ul{
+	list-style: disc;
+	list-style-image: url(../img/bullet.png);
 }
