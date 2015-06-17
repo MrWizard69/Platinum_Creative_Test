@@ -206,9 +206,71 @@ input[type='radio']:checked:before {
 	margin-left: 39%;
 }
 
+.carousel{
+	background-color: #dbdada;
+}
 
-#owl-demo .item img{
-    display: block;
-    width: 100%;
-    height: auto;
+.fsxp{
+	width: 25%;
+	background-color: #444444;
+	padding: .5%;
+	color: #dbdada;
+	position: absolute;
+	top: 204.4%;
+	left: 55%;
+}
+
+#rich{
+	position: relative;
+	left: 58.5%;
+	bottom: 190%;
+	color: #444444;
+}
+
+.richinfo{
+	position: relative;
+	left: 58.7%;
+	bottom: 200%;
+	color: #444444;
+	font-size: 110%;
+	line-height: 90%;
+}
+
+#mac{
+	position: relative;
+	left: 58.5%;
+	bottom: 190%;
+	color: #444444;
+}
+
+#launch{
+	position: relative;
+	left: 58.5%;
+	bottom: 200%;
+	color: #444444;
+}
+
+.maclap{
+	position: relative;
+	left: 58.7%;
+	bottom: 210%;
+	color: #444444;
+	font-size: 110%;
+	line-height: 90%;
+}
+
+#connect{
+	position: relative;
+	left: 58.6%;
+	bottom: 135%;
+	color: #444444;
+}
+
+.collab{
+	position: relative;
+	left: 58.7%;
+	bottom: 147%;
+	color: #444444;
+	font-size: 110%;
+	line-height: 97%;
 }
