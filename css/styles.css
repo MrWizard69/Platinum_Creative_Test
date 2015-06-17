@@ -1,3 +1,5 @@
+/* Desktop View */
+
 body{
 	font-family: 'Roboto', sans-serif;
 }
@@ -348,4 +350,57 @@ ul{
 
 a{
 	color: #636363;
+}
+
+
+/* Tablet View */
+
+
+@media screen and (max-width: 768px){
+	
+	.degree{
+		font-size: 85%;
+		padding: 1.1%;
+		width: 21.5%;
+		bottom: 65%;
+		left: 3%;
+	}
+	
+	.logo{
+		margin-left: 3%;
+	}
+	
+	.overview{
+		width: 50%;
+		margin-left: 1.5%;
+	}
+	
+	.form{
+		background-color: #322f1e;
+		width: 39%;
+		color: white;
+		padding: 1%;
+		position: absolute;
+		top: 9%;
+		right: 4%;
+	}
+	
+	#focuscenter{
+		margin-bottom: 50%;
+		margin-top: 50%;
+	}
+	
+	#hright{
+		width: 20%;
+		float: right;
+		margin-right: 16.5%;
+		margin-top: 1.2%;
+	}
+
+	#hleft{
+		width: 20%;
+		float: left;
+		margin-left: 17%;
+		margin-top: 1.2%;
+	}
 }
