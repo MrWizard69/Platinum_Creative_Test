@@ -222,7 +222,7 @@ input[type='radio']:checked:before {
    	width: 110px;
    	z-index: -2;
    	position: absolute;
-   	top: 113%;
+   	top: 109%;
    	left: 13%
 }
 
@@ -233,7 +233,7 @@ input[type='radio']:checked:before {
    	width: 110px;
    	z-index: -2;
    	position: absolute;
-   	top: 113%;
+   	top: 109%;
    	left: 45.6%
 }
 
@@ -244,7 +244,7 @@ input[type='radio']:checked:before {
    	width: 110px;
    	z-index: -2;
    	position: absolute;
-   	top: 113%;
+   	top: 109%;
    	left: 80.2%
 }
 
@@ -327,9 +327,9 @@ input[type='radio']:checked:before {
 	z-index: 1;
 	background-color: #e96c1f;
 	width: 80%;
-	height: 285px;
+	height: 288px;
 	position: absolute;
-	top: 152%;
+	top: 147%;
 	left: 9%;
 }
 
@@ -343,7 +343,7 @@ input[type='radio']:checked:before {
 	padding: 2%;
 	text-align: center;
 	position: absolute;
-	top: 236.1%;
+	top: 226.1%;
 	background-color: #333327;
 }
 
@@ -452,19 +452,19 @@ a{
 	
 	#outercirc1{
 		background: #444444;
-   		top: 106.5%;
+   		top: 107.5%;
    		left: 9.5%
 	}
 
 	#outercirc2{
 		background: #444444;
-   		top: 106.5%;
+   		top: 107.5%;
    		left: 42%
 	}
 
 	#outercirc3{
 		background: #444444;
-   		top: 106.5%;
+   		top: 107.5%;
    		left: 76%
 	}
 	
@@ -567,7 +567,7 @@ a{
 		width: 83%;
 		height: 269px;
 		position: absolute;
-		top: 152%;
+		top: 153%;
 		left: 9%;
 	}
 
@@ -721,9 +721,10 @@ a{
 	}
 	
 	.form{
-		width: 98%;
+		font-size: 150%;
+		width: 97%;
 		color: white;
-		padding: 1%;
+		padding: 2%;
 		position: static;
 	}
 	
@@ -763,4 +764,21 @@ a{
 		color: #dbdada;
 		position: static;
 	}
+	
+	.carousel{
+		background-color: #dbdada;
+		width: 99.9%;
+		height: 300px;
+	}
+	
+	body{
+		background-color: #dbdada;
+	}
+	
+	.requestsub{
+		font-size: 100%;
+		width: 90%;
+		margin-left: 5%
+	}
+	
 }
