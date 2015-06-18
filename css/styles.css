@@ -31,10 +31,14 @@
 }
 
 .phone{
-	margin-left: 25%;
+	display: none;
+	margin-left: 27%;
 	width: 6%;
 }
 
+#mobileDegree{
+		display: none;
+}
 
 body{
 	font-family: 'Roboto', sans-serif;
@@ -610,14 +614,13 @@ a{
 @media screen and (max-width: 638px){
 	
 	.degree{
-		display: none;
-		/* 
-font-size: 85%;
+		font-size: 80%;
 		padding: 1.1%;
-		width: 21.5%;
-		bottom: 65%;
-		left: 3%;
- */
+		width: 22.5%;
+		bottom: 70%;
+		left: 10%;
+		height: 40px;
+
 	}
 	
 	#accordion{
@@ -632,11 +635,80 @@ font-size: 85%;
 		color: white;
 		border:1px solid #e86d1f;
 		position: absolute;
-		bottom: 742.7%;
-		right: 3%;
+		bottom: 741%;
+		right: 2.5%;
 		/* margin-bottom: 1.5%; */
 	}
 	#arrow{
 		display: none;
+	}
+	
+	.phone{
+		display: inline;
+	}
+	
+	.header{
+		background-color: #383421;
+		padding-top: .5%;
+	}
+	
+	#deskDegree{
+		display: none;
+	}
+	
+	#mobileDegree{
+		display: inline;
+	}
+	
+	#outercirc1{
+		display: none;
+	}
+	
+	#outercirc2{
+		display: none;
+	}
+	
+	#outercirc3{
+		display: none;
+	}
+	
+	#hright{
+		display: none;
+	}
+	
+	#hleft{
+		display: none;
+	}
+	
+	.gadback{
+		display: none;
+	}
+	
+	.iconcenter{
+		display: none;
+	}
+	
+	.col1{
+		display: none;
+	}
+	
+	.col2{
+		display: none;
+	}
+	
+	.col3{
+		display: none;
+	}
+	
+	.areacenter{
+		display: none;
+	}
+	
+	.areamove{
+		display: none;
+	}
+	
+	.overview{
+		background-color: #f7f6f6;
 	}
 }
