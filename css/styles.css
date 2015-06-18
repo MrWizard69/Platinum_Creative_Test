@@ -16,17 +16,17 @@
 	display: none;
 	background-color: #e5e5e5;
 	color: #6f6f6f;
-	padding: 2%;
-	margin-bottom: -1.5%;
-	margin-top: -1.6%;
+	padding: 1%;
+	margin-bottom: -3.6%;
+	margin-top: -3.6%;
 }
 .accordion-content.default{
 	display: block;
 	background-color: #e5e5e5;
 	color: #6f6f6f;
 	padding: 1%;
-	margin-bottom: -1.6%;
-	margin-top: -1.6%;
+	margin-bottom: -3.6%;
+	margin-top: -3.6%;
 
 }
 
@@ -629,13 +629,14 @@ a{
 	
 	#requestInfo{
 		font-size: 100%;
+		z-index: 1;
 		width: 20%;
 		height: 35px;
 		background-color: #e86d1f;
 		color: white;
 		border:1px solid #e86d1f;
 		position: absolute;
-		bottom: 741%;
+		top: 1.7%;
 		right: 2.5%;
 		/* margin-bottom: 1.5%; */
 	}
@@ -738,5 +739,28 @@ a{
 		text-align: center;
 		position: static;
 		background-color: #333327;
+	}
+	
+	#learn{
+		display: none;
+	}
+	
+	.bachelor{
+		color: white;
+		position: static;
+	}
+
+	.details{
+		color: white;
+		line-height: 200%;
+		position: static;
+	}
+	
+	.fsxp{
+		width: 25%;
+		background-color: #444444;
+		padding: .5%;
+		color: #dbdada;
+		position: static;
 	}
 }
