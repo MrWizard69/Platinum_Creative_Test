@@ -721,7 +721,7 @@ a{
 	}
 	
 	.form{
-		width: 100%;
+		width: 98%;
 		color: white;
 		padding: 1%;
 		position: static;
@@ -734,7 +734,7 @@ a{
 	}
 	
 	.footer{
-		width: 100%;
+		width: 96%;
 		padding: 2%;
 		text-align: center;
 		position: static;
