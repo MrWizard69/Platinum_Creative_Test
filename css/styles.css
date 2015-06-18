@@ -749,20 +749,26 @@ a{
 	.bachelor{
 		color: white;
 		position: static;
+		margin-left: 22%;
+		font-size: 200%;
 	}
 
 	.details{
 		color: white;
 		line-height: 200%;
 		position: static;
+		margin-left: 15%;
+		
 	}
 	
 	.fsxp{
-		width: 25%;
+		width: 98%;
+		text-align: center;
 		background-color: #444444;
-		padding: .5%;
+		padding: 1%;
 		color: #dbdada;
 		position: static;
+		font-size: 120%;
 	}
 	
 	.carousel{
@@ -779,6 +785,29 @@ a{
 		font-size: 100%;
 		width: 90%;
 		margin-left: 5%
+	}
+	
+	#focuscenter{
+		text-align: center;
+		margin-left: 0;
+		margin-top: 5%;
+		margin-bottom: 3%;
+	}
+	
+	.overtitle{
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+
+	.descript{
+		margin-left: 2%;
+		margin-right: 2%;
+			
+	}
+	
+	ul{
+		list-style: none;
+		font-size: 110%;
 	}
 	
 }
